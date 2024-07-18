@@ -5,7 +5,7 @@ from docx import Document  # Import Document from python-docx for Word document 
 
 # Define Streamlit app
 def debug():
-    st.title("EPI-USE Labs Chatbot for Tickets Support")
+    st.title("Chatbot for Tickets Support")
 
     # Sidebar for user input and session control
     session_id = st.text_input("Enter Session ID:", key="session_id")
